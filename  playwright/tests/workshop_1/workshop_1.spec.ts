@@ -34,3 +34,4 @@ test('Using Various Locator methods', async ({page})=>{
     await page.click(':has-text("Security")')//this doesnt work for some reason
     await page.waitForTimeout(3000)
 })
+
