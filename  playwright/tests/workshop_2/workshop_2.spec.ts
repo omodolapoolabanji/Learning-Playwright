@@ -25,7 +25,7 @@ test.skip('Automating forms and submissions', async({page})=>{
 
 })
 
-test.only('Handling Form', async ({page})=>{
+test.skip('Handling Form', async ({page})=>{
     await page.goto('https://demo.playwright.dev/todomvc/');
     const placeHolder = '[placeholder="What needs to be done?"]'
     await page.fill(placeHolder, 'man idk')
